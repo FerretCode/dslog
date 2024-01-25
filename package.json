@@ -1,0 +1,17 @@
+{
+  "name": "dslog.js",
+  "version": "1.0.1",
+  "description": "an extensible structured logging library with discord webhook support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ferretcode",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dayjs": "^1.11.10",
+    "discord.js": "^14.14.1"
+  }
+}
