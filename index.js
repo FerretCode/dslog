@@ -107,7 +107,7 @@ module.exports = {
         );
       }
 
-      if (!fs.existsSync(`${__dirname}/dslog.config.json`)) return;
+      if (!fs.existsSync(`${process.cwd()}/dslog.config.json`)) return;
       if (!options.sendWebhook) return;
 
       const json = JSON.parse(

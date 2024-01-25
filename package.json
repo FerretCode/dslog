@@ -1,6 +1,6 @@
 {
   "name": "dslog.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "an extensible structured logging library with discord webhook support",
   "main": "index.js",
   "scripts": {
