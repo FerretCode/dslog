@@ -111,7 +111,7 @@ module.exports = {
       if (!options.sendWebhook) return;
 
       const json = JSON.parse(
-        fs.readFileSync(`${__dirname}/dslog.config.json`)
+        fs.readFileSync(`${process.cwd()}/dslog.config.json`)
       );
 
       const embed = generateEmbed(level);
